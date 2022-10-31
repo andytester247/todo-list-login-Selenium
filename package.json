@@ -1,0 +1,19 @@
+{
+    "name": "todo-list-login-selenium",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx mocha --no-timeouts --parallel 'tests/test.js'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "chai": "^4.3.6",
+      "mocha": "^10.1.0",      
+      "selenium-webdriver": "^4.5.0"
+    },
+    "devDependencies": {
+      "chromedriver": "^106.0.1"
+    }
+  }
